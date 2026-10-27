@@ -1,0 +1,6 @@
+{
+  "name": "Hành Trình Tỏa Sáng - Chinh Phục Toán Tiểu Học Cùng AI",
+  "description": "Hệ sinh thái học Toán tiểu học thông minh chuẩn GDPT 2018 với trợ lí AI Sao Sáng, xưởng sinh đề tự động, 3 hành tinh cá nhân hóa và 8 trò chơi Toán học tương tác.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

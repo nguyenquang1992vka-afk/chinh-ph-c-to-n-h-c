@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  *, *::before, *::after {
+    font-family: "Times New Roman", Times, "Tinos", serif !important;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, "Tinos", serif !important;
+    background-color: #FFFDF7;
+    color: #1E293B;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Floating animation */
+@keyframes gentle-float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-gentle-float {
+  animation: gentle-float 4s ease-in-out infinite;
+}
+
+/* Star glow effect */
+.star-glow {
+  filter: drop-shadow(0 0 10px rgba(255, 200, 61, 0.75));
+}
+
+.magic-border {
+  background: linear-gradient(135deg, #3478F6, #8957F6, #FF6B9C);
+  padding: 2px;
+  border-radius: 1rem;
+}
